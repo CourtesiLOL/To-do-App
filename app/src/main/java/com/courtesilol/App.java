@@ -6,15 +6,15 @@ package com.courtesilol;
 import com.courtesilol.view.MainView;
 
 public class App {
-    
+
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
-        
+
         MainView.launchApp(args);
-        
+
     }
 
 }

@@ -23,10 +23,10 @@ ext {
 
 dependencies {
     // GUI Dependencies
-    implementation "org.openjfx:javafx-base:17.0.13:${osDetector}"
-    implementation "org.openjfx:javafx-graphics:17.0.13:${osDetector}"
-    implementation "org.openjfx:javafx-controls:17.0.13:${osDetector}"
-    implementation "org.openjfx:javafx-fxml:17.0.13:${osDetector}"
+    implementation "org.openjfx:javafx-base:21.0.6:${osDetector}"
+    implementation "org.openjfx:javafx-graphics:21.0.6:${osDetector}"
+    implementation "org.openjfx:javafx-controls:21.0.6:${osDetector}"
+    implementation "org.openjfx:javafx-fxml:21.0.6:${osDetector}"
     // This dependency is used by the application.
     implementation libs.guava
 }

@@ -25,10 +25,10 @@ public class MainView extends Application {
 
         Optional<Scene> scene = fxmlUtils.getView("/View/mainBase.fxml");
 
-        if(scene.isEmpty()) {
+        if (scene.isEmpty()) {
 
-            fxmlUtils.errorPopup(null,"No se a cargado correctamente");
-            
+            fxmlUtils.errorPopup(null, "No se a cargado correctamente");
+
         } else {
             primaryStage.setScene(scene.get());
             primaryStage.setTitle("To-Do"); // Elimina el ícono de la ventana
